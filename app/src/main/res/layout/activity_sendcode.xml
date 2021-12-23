@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login"
+    tools:context=".SendcodeActivity">
+
+    <TextView
+        android:id="@+id/education"
+        android:layout_width="367dp"
+        android:layout_height="73dp"
+        android:fontFamily="@font/londrinasolid_regular"
+        android:text="CONFIRM CODE"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.214" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="342dp"
+        android:layout_height="36dp"
+        android:fontFamily="@font/londrinasolid_regular"
+        android:text="Enter the code that has been sent"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.372" />
+
+    <EditText
+        android:id="@+id/code"
+        android:layout_width="321dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="372dp"
+        android:background="@drawable/edit_text_bg"
+        android:drawableStart="@drawable/ic_baseline_qr_code_24"
+        android:drawablePadding="10dp"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_sendcode"
+        android:layout_width="161dp"
+        android:layout_height="55dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/londrinasolid_regular"
+        android:letterSpacing="0.10"
+        android:text="SEND CODE"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75"
+        android:onClick="sendCode"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
