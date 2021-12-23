@@ -45,7 +45,7 @@ public class RegisterActivity extends AppCompatActivity {
 
     public void btn_register(View view)
     {
-        Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
+        Intent intent = new Intent(RegisterActivity.this, RegisterHomeActivity.class);
         startActivity(intent);
     }
 }
