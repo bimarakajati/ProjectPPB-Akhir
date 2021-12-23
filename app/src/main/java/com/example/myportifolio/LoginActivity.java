@@ -43,9 +43,13 @@ public class LoginActivity extends AppCompatActivity {
         login.animate().translationX(0).alpha(1).setDuration(800).setStartDelay(700).start();
 
     }
-
     public void forgot_pass(View view){
         Intent a = new Intent(LoginActivity.this, ForgotPasswordActivity.class);
+        startActivity(a);
+    }
+
+    public void btn_login(View view){
+        Intent a = new Intent(LoginActivity.this, MainMenuActivity.class);
         startActivity(a);
     }
 }

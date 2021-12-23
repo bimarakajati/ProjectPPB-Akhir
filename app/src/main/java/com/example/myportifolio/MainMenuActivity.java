@@ -6,33 +6,45 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 public class MainMenuActivity extends AppCompatActivity {
+
+    ImageView background;
+    float v = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
-    }
 
-    public void education(View view) {
-        Intent i = new Intent(MainMenuActivity.this, iEducation.class);
-        startActivity(i);
-    }
+        background = findViewById(R.id.bg);
+        background.setTranslationY(800);
+        background.setAlpha(v);
+        background.animate().translationY(0).alpha(1).setDuration(800).setStartDelay(300).start();
 
-    public void calendar(View view) {
-        Intent i = new Intent(MainMenuActivity.this, iCalendar.class);
-        startActivity(i);
-    }
 
-    public void payment(View view) {
-        Intent i = new Intent(MainMenuActivity.this, iPayment.class);
-        startActivity(i);
-    }
 
-    public void about(View view) {
-        Intent i = new Intent(MainMenuActivity.this, iAbout.class);
-        startActivity(i);
     }
+//
+//    public void education(View view) {
+//        Intent i = new Intent(MainMenuActivity.this, iEducation.class);
+//        startActivity(i);
+//    }
+//
+//    public void calendar(View view) {
+//        Intent i = new Intent(MainMenuActivity.this, iCalendar.class);
+//        startActivity(i);
+//    }
+//
+//    public void payment(View view) {
+//        Intent i = new Intent(MainMenuActivity.this, iPayment.class);
+//        startActivity(i);
+//    }
+//
+//    public void about(View view) {
+//        Intent i = new Intent(MainMenuActivity.this, iAbout.class);
+//        startActivity(i);
+//    }
 }
