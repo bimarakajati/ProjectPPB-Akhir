@@ -24,12 +24,18 @@
         <entry key="..\:/My Document/Project Android Studio/app/src/main/res/layout/activity_login.xml" value="0.4" />
         <entry key="..\:/My Document/Project Android Studio/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/My Document/Project Android Studio/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Project-PPB-master/app/src/main/res/drawable/card_view.xml" value="0.290625" />
         <entry key="..\:/Project-PPB-master/app/src/main/res/drawable/custom_background.xml" value="0.290625" />
         <entry key="..\:/Project-PPB-master/app/src/main/res/drawable/custom_button.xml" value="0.290625" />
+        <entry key="..\:/Project-PPB-master/app/src/main/res/drawable/edit_text_bg.xml" value="0.290625" />
         <entry key="..\:/Project-PPB-master/app/src/main/res/layout/activity_change_password.xml" value="0.4" />
+        <entry key="..\:/Project-PPB-master/app/src/main/res/layout/activity_claim_sertifikat.xml" value="0.27447916666666666" />
         <entry key="..\:/Project-PPB-master/app/src/main/res/layout/activity_forgot_password.xml" value="0.2604166666666667" />
+        <entry key="..\:/Project-PPB-master/app/src/main/res/layout/activity_list_payment_activitiy.xml" value="0.2" />
         <entry key="..\:/Project-PPB-master/app/src/main/res/layout/activity_login.xml" value="0.17300724637681159" />
+        <entry key="..\:/Project-PPB-master/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
         <entry key="..\:/Project-PPB-master/app/src/main/res/layout/activity_main_menu.xml" value="0.264" />
+        <entry key="..\:/Project-PPB-master/app/src/main/res/layout/activity_payment.xml" value="0.27447916666666666" />
         <entry key="..\:/Project-PPB-master/app/src/main/res/layout/activity_register.xml" value="0.17300724637681159" />
         <entry key="..\:/Project-PPB-master/app/src/main/res/layout/activity_register_home.xml" value="0.2" />
         <entry key="..\:/Project-PPB-master/app/src/main/res/layout/activity_sendcode.xml" value="0.4" />

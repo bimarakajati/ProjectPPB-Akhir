@@ -47,10 +47,10 @@ public class MainMenuActivity extends AppCompatActivity {
 //        startActivity(i);
 //    }
 //
-//    public void payment(View view) {
-//        Intent i = new Intent(MainMenuActivity.this, iPayment.class);
-//        startActivity(i);
-//    }
+    public void payment(View view) {
+        Intent i = new Intent(MainMenuActivity.this, PaymentActivity.class);
+        startActivity(i);
+    }
 //
 //    public void about(View view) {
 //        Intent i = new Intent(MainMenuActivity.this, iAbout.class);
