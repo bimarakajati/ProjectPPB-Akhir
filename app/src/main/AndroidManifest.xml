@@ -20,6 +20,15 @@
             android:name=".iEducation"
             android:exported="false" />
         <activity
+            android:name=".ClaimSertifikatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ListPaymentActivitiy"
+            android:exported="true" />
+        <activity
+            android:name=".PaymentActivity"
+            android:exported="true" />
+        <activity
             android:name=".SuccesRegister"
             android:exported="true" />
         <activity
