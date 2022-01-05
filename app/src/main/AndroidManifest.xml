@@ -20,6 +20,9 @@
             android:name=".iEducation"
             android:exported="false" />
         <activity
+            android:name=".Kalender"
+            android:exported="true" />
+        <activity
             android:name=".ClaimSertifikatActivity"
             android:exported="true" />
         <activity
