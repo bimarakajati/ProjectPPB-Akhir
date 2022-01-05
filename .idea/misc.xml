@@ -3,6 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/PBBLatihan/Other/Lucky/ProjectPPB-Akhir/app/src/main/res/drawable-v24/button_red.xml" value="0.10885416666666667" />
+        <entry key="..\:/AndroidStudioProjects/PBBLatihan/Other/Lucky/ProjectPPB-Akhir/app/src/main/res/drawable/custom_background.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/PBBLatihan/Other/Lucky/ProjectPPB-Akhir/app/src/main/res/drawable/custom_button.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/PBBLatihan/Other/Lucky/ProjectPPB-Akhir/app/src/main/res/drawable/edit_text_bg.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/PBBLatihan/Other/Lucky/ProjectPPB-Akhir/app/src/main/res/layout/activity_change_password.xml" value="0.18" />
+        <entry key="..\:/AndroidStudioProjects/PBBLatihan/Other/Lucky/ProjectPPB-Akhir/app/src/main/res/layout/activity_education.xml" value="0.20380434782608695" />
+        <entry key="..\:/AndroidStudioProjects/PBBLatihan/Other/Lucky/ProjectPPB-Akhir/app/src/main/res/layout/activity_education_description.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/PBBLatihan/Other/Lucky/ProjectPPB-Akhir/app/src/main/res/layout/activity_forgot_password.xml" value="0.20380434782608695" />
+        <entry key="..\:/AndroidStudioProjects/PBBLatihan/Other/Lucky/ProjectPPB-Akhir/app/src/main/res/layout/activity_forum.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/PBBLatihan/Other/Lucky/ProjectPPB-Akhir/app/src/main/res/layout/activity_login.xml" value="0.20380434782608695" />
+        <entry key="..\:/AndroidStudioProjects/PBBLatihan/Other/Lucky/ProjectPPB-Akhir/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/PBBLatihan/Other/Lucky/ProjectPPB-Akhir/app/src/main/res/layout/activity_main_menu.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/PBBLatihan/Other/Lucky/ProjectPPB-Akhir/app/src/main/res/layout/activity_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/PBBLatihan/Other/Lucky/ProjectPPB-Akhir/app/src/main/res/layout/activity_register_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/PBBLatihan/Other/Lucky/ProjectPPB-Akhir/app/src/main/res/layout/my_row.xml" value="0.20380434782608695" />
         <entry key="..\:/Kuliah/Semester 3/PPB/Project Akhir/Code/Project Android Studio/app/src/main/res/drawable/custom_button.xml" value="0.290625" />
         <entry key="..\:/Kuliah/Semester 3/PPB/Project Akhir/Code/Project Android Studio/app/src/main/res/drawable/edit_text_bg.xml" value="0.290625" />
         <entry key="..\:/Kuliah/Semester 3/PPB/Project Akhir/Code/Project Android Studio/app/src/main/res/drawable/ic_baseline_mail_24.xml" value="0.290625" />

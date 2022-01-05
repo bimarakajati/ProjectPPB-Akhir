@@ -2,13 +2,23 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myportifolio">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyPortifolio">
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ForumActivity"
+            android:exported="false" />
+        <activity
+            android:name=".iEducation_Description"
+            android:exported="false" />
+        <activity
+            android:name=".iEducation"
+            android:exported="false" />
         <activity
             android:name=".ClaimSertifikatActivity"
             android:exported="true" />

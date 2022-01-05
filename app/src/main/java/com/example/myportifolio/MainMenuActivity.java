@@ -4,11 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.TextUtils;
 import android.view.View;
 import android.widget.GridLayout;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 public class MainMenuActivity extends AppCompatActivity {
 
@@ -36,11 +34,11 @@ public class MainMenuActivity extends AppCompatActivity {
 
 
     }
-//
-//    public void education(View view) {
-//        Intent i = new Intent(MainMenuActivity.this, iEducation.class);
-//        startActivity(i);
-//    }
+
+    public void education(View view) {
+        Intent i = new Intent(MainMenuActivity.this, iEducation.class);
+        startActivity(i);
+    }
 //
 //    public void calendar(View view) {
 //        Intent i = new Intent(MainMenuActivity.this, iCalendar.class);
