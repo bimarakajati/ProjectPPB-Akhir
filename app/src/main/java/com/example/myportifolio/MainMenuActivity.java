@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.GridLayout;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class MainMenuActivity extends AppCompatActivity {
 
@@ -30,28 +31,26 @@ public class MainMenuActivity extends AppCompatActivity {
 
         background.animate().translationY(0).alpha(1).setDuration(800).setStartDelay(300).start();
         menu.animate().translationY(0).alpha(1).setDuration(800).setStartDelay(500).start();
-
-
-
     }
 
     public void education(View view) {
         Intent i = new Intent(MainMenuActivity.this, iEducation.class);
         startActivity(i);
     }
-//
+
     public void calendar(View view) {
         Intent i = new Intent(MainMenuActivity.this, Kalender.class);
         startActivity(i);
     }
-//
+
     public void payment(View view) {
         Intent i = new Intent(MainMenuActivity.this, PaymentActivity.class);
         startActivity(i);
     }
-//
-//    public void about(View view) {
+
+    public void about(View view) {
 //        Intent i = new Intent(MainMenuActivity.this, iAbout.class);
 //        startActivity(i);
-//    }
+        Toast.makeText(MainMenuActivity.this, "Belom ada ganteng", Toast.LENGTH_LONG).show();
+    }
 }

@@ -14,7 +14,7 @@ public class ClaimSertifikatActivity extends AppCompatActivity {
         setContentView(R.layout.activity_claim_sertifikat);
     }
 
-    public void btn_payment(View view){
+    public void btn_payment(View view) {
         Intent payment = new Intent(ClaimSertifikatActivity.this, ListPaymentActivitiy.class);
         startActivity(payment);
     }

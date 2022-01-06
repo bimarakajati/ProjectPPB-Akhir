@@ -12,7 +12,7 @@
         android:layout_width="259dp"
         android:layout_height="154dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100px"
+        android:layout_marginTop="10dp"
         android:src="@drawable/logo_bidu" />
 
     <ImageView

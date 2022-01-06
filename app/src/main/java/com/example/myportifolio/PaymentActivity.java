@@ -14,12 +14,12 @@ public class PaymentActivity extends AppCompatActivity {
         setContentView(R.layout.activity_payment);
     }
 
-    public void btn_payment(View view){
+    public void btn_payment(View view) {
         Intent payment = new Intent(PaymentActivity.this, ListPaymentActivitiy.class);
         startActivity(payment);
     }
 
-    public void btn_claim(View view){
+    public void btn_claim(View view) {
         Intent claim = new Intent(PaymentActivity.this, ClaimSertifikatActivity.class);
         startActivity(claim);
     }
