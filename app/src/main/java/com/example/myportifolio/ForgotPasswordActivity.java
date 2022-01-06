@@ -1,20 +1,18 @@
 package com.example.myportifolio;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class ForgotPasswordActivity extends AppCompatActivity {
 
     EditText email;
     Button sendCode;
-    float v=0;
+    float v = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +32,7 @@ public class ForgotPasswordActivity extends AppCompatActivity {
         sendCode.animate().translationX(0).alpha(1).setDuration(800).setStartDelay(500).start();
     }
 
-    public void btn_code(View view){
+    public void btn_code(View view) {
         Intent intent = new Intent(ForgotPasswordActivity.this, SendcodeActivity.class);
         startActivity(intent);
     }

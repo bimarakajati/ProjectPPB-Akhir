@@ -1,13 +1,12 @@
 package com.example.myportifolio;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class RegisterActivity extends AppCompatActivity {
 
@@ -37,14 +36,12 @@ public class RegisterActivity extends AppCompatActivity {
         btn2.animate().translationX(0).alpha(1).setDuration(800).setStartDelay(500).start();
     }
 
-    public void btn_login(View view)
-    {
+    public void btn_login(View view) {
         Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
         startActivity(intent);
     }
 
-    public void btn_register(View view)
-    {
+    public void btn_register(View view) {
         Intent intent = new Intent(RegisterActivity.this, RegisterHomeActivity.class);
         startActivity(intent);
     }
