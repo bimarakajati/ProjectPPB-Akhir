@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "981075989957",
+    "firebase_url": "https://project-akhir-bidu-default-rtdb.firebaseio.com",
+    "project_id": "project-akhir-bidu",
+    "storage_bucket": "project-akhir-bidu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981075989957:android:81f41fb717036e8327a7ac",
+        "android_client_info": {
+          "package_name": "com.udinus.bimaeducation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981075989957-vti6da1uvtr1e1lm5s4pjb4dpj7tnhgp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeGdehQFApgY730R_ScJT_otDFnm4PSow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981075989957-vti6da1uvtr1e1lm5s4pjb4dpj7tnhgp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
