@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myportifolio">
+    package="com.udinus.bimaeducation">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ForumActivity"
+            android:name="com.udinus.bimaeducation.ForumActivity"
             android:exported="false" />
         <activity
-            android:name=".iEducation_Description"
+            android:name="com.udinus.bimaeducation.iEducation_Description"
             android:exported="false" />
         <activity
-            android:name=".iEducation"
+            android:name="com.udinus.bimaeducation.iEducation"
             android:exported="false" />
         <activity
-            android:name=".Kalender"
+            android:name="com.udinus.bimaeducation.Kalender"
             android:exported="true" />
         <activity
-            android:name=".ClaimSertifikatActivity"
+            android:name="com.udinus.bimaeducation.ClaimSertifikatActivity"
             android:exported="true" />
         <activity
-            android:name=".ListPaymentActivitiy"
+            android:name="com.udinus.bimaeducation.ListPaymentActivitiy"
             android:exported="true" />
         <activity
-            android:name=".PaymentActivity"
+            android:name="com.udinus.bimaeducation.PaymentActivity"
             android:exported="true" />
         <activity
-            android:name=".SuccesRegister"
+            android:name="com.udinus.bimaeducation.SuccesRegister"
             android:exported="true" />
         <activity
-            android:name=".RegisterHomeActivity"
+            android:name="com.udinus.bimaeducation.RegisterHomeActivity"
             android:exported="true" />
         <activity
-            android:name=".MainMenuActivity"
+            android:name="com.udinus.bimaeducation.MainMenuActivity"
             android:exported="true" />
         <activity
-            android:name=".ChangePasswordActivity"
+            android:name="com.udinus.bimaeducation.ChangePasswordActivity"
             android:exported="true" />
         <activity
-            android:name=".SendcodeActivity"
+            android:name="com.udinus.bimaeducation.SendcodeActivity"
             android:exported="true" />
         <activity
-            android:name=".RegisterActivity"
+            android:name="com.udinus.bimaeducation.RegisterActivity"
             android:exported="true" />
         <activity
-            android:name=".ForgotPasswordActivity"
+            android:name="com.udinus.bimaeducation.ForgotPasswordActivity"
             android:exported="true" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.udinus.bimaeducation.LoginActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.udinus.bimaeducation.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

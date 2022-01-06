@@ -1,4 +1,4 @@
-package com.example.myportifolio;
+package com.udinus.bimaeducation;
 
 import androidx.appcompat.app.AppCompatActivity;
 

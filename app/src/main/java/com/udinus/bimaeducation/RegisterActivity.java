@@ -1,4 +1,4 @@
-package com.example.myportifolio;
+package com.udinus.bimaeducation;
 
 import android.content.Intent;
 import android.os.Bundle;
