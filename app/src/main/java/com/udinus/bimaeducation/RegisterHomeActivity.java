@@ -1,4 +1,4 @@
-package com.example.myportifolio;
+package com.udinus.bimaeducation;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -34,6 +34,8 @@ public class RegisterHomeActivity extends AppCompatActivity {
         // Validasi kosong
         if (TextUtils.isEmpty(editEmail.getText().toString().trim())) {
             Toast.makeText(view.getContext(), "Email harus diisi!", Toast.LENGTH_LONG).show();
+        } else if (TextUtils.isEmpty(editUsername.getText().toString().trim())) {
+            Toast.makeText(view.getContext(), "Isi Username Baru Anda!", Toast.LENGTH_LONG).show();
         } else if (TextUtils.isEmpty(editTextPassword.getText().toString().trim())) {
             Toast.makeText(view.getContext(), "Isi Password Baru Anda!", Toast.LENGTH_LONG).show();
         } else if (TextUtils.isEmpty(editConfirmPassword.getText().toString().trim())) {

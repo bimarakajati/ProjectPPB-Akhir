@@ -1,4 +1,4 @@
-package com.example.myportifolio;
+package com.udinus.bimaeducation;
 
 public class Siswa {
     String nis, nama, pesan;

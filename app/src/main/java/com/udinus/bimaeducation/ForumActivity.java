@@ -1,4 +1,4 @@
-package com.example.myportifolio;
+package com.udinus.bimaeducation;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,7 +8,6 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 
 public class ForumActivity extends AppCompatActivity {
     EditText nis, nama, pesan;

@@ -21,51 +21,29 @@
     <string-array name="deskripsi">
         <item>
             Python adalah bahasa pemrograman interpretatif multiguna. Tidak seperti bahasa lain yang susah untuk dibaca dan dipahami, python lebih menekankan pada keterbacaan kode agar lebih mudah untuk memahami sintaks. Hal ini membuat Python sangat mudah dipelajari baik untuk pemula maupun untuk yang sudah menguasai bahasa pemrograman lain.
-            \n\
-            \n\
-            Bahasa ini muncul pertama kali pada tahun 1991, dirancang oleh seorang bernama Guido van Rossum. Sampai saat ini Python masih dikembangkan oleh Python Software Foundation. Bahasa Python mendukung hampir semua sistem operasi, bahkan untuk sistem operasi Linux, hampir semua distronya sudah menyertakan Python di dalamnya.
+            \n\nBahasa ini muncul pertama kali pada tahun 1991, dirancang oleh seorang bernama Guido van Rossum. Sampai saat ini Python masih dikembangkan oleh Python Software Foundation. Bahasa Python mendukung hampir semua sistem operasi, bahkan untuk sistem operasi Linux, hampir semua distronya sudah menyertakan Python di dalamnya.
         </item>
         <item>
             C++ adalah bahasa pemrograman hasil pengembangan bahasa C. Sintak penulisan C dan C++ hampir mirip, tetapi berbeda dalam langkah penyelesaian masalah.
-            \n\
-            \n\
-            Pada bahasa C, langkah penyelesaian masalah dilakukan dengan cara membagi-baginya ke dalam sub masalah yang lebih kecil.
-            \n\
-            \n\
-            Cara ini dikenal sebagai bahasa pemrograman prosedural.
-            \n\
-            \n\
-            Sementara, C++ justru berorientasi pada objek. Permasalahan dibagi-bagi lagi ke dalam beberapa class. Itulah mengapa C++ hasil pengembangan Bjarne Stroustrup ini populer di kalangan perusahaan software besar, antara lain Firefox dan Adobe.
-            \n\
-            \n\
-            Hingga saat ini, bahasa pemrograman C++ telah mengalami pembaruan secara berkala. Artinya, kamu akan menjumpai ada banyak versi bahasa ini.
-            \n\
-            \n\
-            Ketika ada fitur baru yang dikembangkan pada C++, akan dibuat standarisasi. Namun, untuk pemula, kamu tidak perlu ambil pusing soal versi mana yang akan dipakai.
-            \n\
-            \n\
-            Setiap versi C++ punya dasar yang sama. Letak perbedaannya hanya pada fitur yang dihapus dan/atau ditambahkan.
+            \n\nPada bahasa C, langkah penyelesaian masalah dilakukan dengan cara membagi-baginya ke dalam sub masalah yang lebih kecil.
+            \n\nCara ini dikenal sebagai bahasa pemrograman prosedural.
+            \n\nSementara, C++ justru berorientasi pada objek. Permasalahan dibagi-bagi lagi ke dalam beberapa class. Itulah mengapa C++ hasil pengembangan Bjarne Stroustrup ini populer di kalangan perusahaan software besar, antara lain Firefox dan Adobe.
+            \n\nHingga saat ini, bahasa pemrograman C++ telah mengalami pembaruan secara berkala. Artinya, kamu akan menjumpai ada banyak versi bahasa ini.
+            \n\nKetika ada fitur baru yang dikembangkan pada C++, akan dibuat standarisasi. Namun, untuk pemula, kamu tidak perlu ambil pusing soal versi mana yang akan dipakai.
+            \n\nSetiap versi C++ punya dasar yang sama. Letak perbedaannya hanya pada fitur yang dihapus dan/atau ditambahkan.
         </item>
         <item>
             Java adalah salah satu bahasa pemrograman populer yang digunakan untuk mengembangkan aplikasi mobile, desktop, hingga website. Beberapa website besar dunia seperti, Yahoo!, LinkedIn, dan Spotify ternyata juga telah menggunakan Java untuk mengembangkan websitenya.
-            \n\
-            \n\
-            Salah satu alasan populernya Java adalah fleksibilitasnya untuk digunakan di banyak platform. Tak heran sekitar 12 juta developer menggunakan Java untuk pengembangan aplikasi.
+            \n\nSalah satu alasan populernya Java adalah fleksibilitasnya untuk digunakan di banyak platform. Tak heran sekitar 12 juta developer menggunakan Java untuk pengembangan aplikasi.
         </item>
         <item>
             Hypertext Markup Language atau HTML adalah bahasa markup yang digunakan untuk membuat struktur halaman website.
-            \n\
-            \n\
-            HTML terdiri dari kombinasi teks dan simbol yang disimpan dalam sebuah file. Dalam membuat file HTML, terdapat standar atau format khusus yang harus diikuti. Format tersebut telah tertuang dalam standar kode internasional atau ASCII (American Standard Code for Information Interchange).
+            \n\nHTML terdiri dari kombinasi teks dan simbol yang disimpan dalam sebuah file. Dalam membuat file HTML, terdapat standar atau format khusus yang harus diikuti. Format tersebut telah tertuang dalam standar kode internasional atau ASCII (American Standard Code for Information Interchange).
         </item>
         <item>
             PHP  (PHP: Hypertext Preprocessor) adalah sebuah bahasa pemrograman server side scripting yang bersifat open source.
-            \n\
-            \n\
-            Sebagai sebuah scripting language, PHP menjalankan instruksi pemrograman saat proses runtime. Hasil dari instruksi tentu akan berbeda tergantung data yang diproses.
-            \n\
-            \n\
-            PHP merupakan bahasa pemrograman server-side, maka script dari PHP nantinya akan diproses di server. Jenis server yang sering digunakan bersama dengan PHP antara lain Apache, Nginx, dan LiteSpeed.
+            \n\nSebagai sebuah scripting language, PHP menjalankan instruksi pemrograman saat proses runtime. Hasil dari instruksi tentu akan berbeda tergantung data yang diproses.
+            \n\nPHP merupakan bahasa pemrograman server-side, maka script dari PHP nantinya akan diproses di server. Jenis server yang sering digunakan bersama dengan PHP antara lain Apache, Nginx, dan LiteSpeed.
         </item>
     </string-array>
 </resources>
