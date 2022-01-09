@@ -2,7 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.udinus.bimaeducation">
 
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo"
@@ -10,56 +18,77 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
         <activity
-            android:name="com.udinus.bimaeducation.ForumActivity"
+            android:name=".MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".ForumActivity"
             android:exported="false" />
         <activity
-            android:name="com.udinus.bimaeducation.iEducation_Description"
+            android:name=".iEducation_Description"
             android:exported="false" />
         <activity
-            android:name="com.udinus.bimaeducation.iEducation"
+            android:name=".iEducation"
             android:exported="false" />
         <activity
-            android:name="com.udinus.bimaeducation.Kalender"
+            android:name=".Kalender"
             android:exported="true" />
         <activity
-            android:name="com.udinus.bimaeducation.ClaimSertifikatActivity"
+            android:name=".ClaimSertifikatActivity"
             android:exported="true" />
         <activity
-            android:name="com.udinus.bimaeducation.ListPaymentActivitiy"
+            android:name=".ListPaymentActivitiy"
             android:exported="true" />
         <activity
-            android:name="com.udinus.bimaeducation.PaymentActivity"
+            android:name=".PaymentActivity"
             android:exported="true" />
         <activity
-            android:name="com.udinus.bimaeducation.SuccesRegister"
+            android:name=".SuccesRegister"
             android:exported="true" />
         <activity
-            android:name="com.udinus.bimaeducation.RegisterHomeActivity"
+            android:name=".RegisterHomeActivity"
             android:exported="true" />
         <activity
-            android:name="com.udinus.bimaeducation.MainMenuActivity"
+            android:name=".MainMenuActivity"
             android:exported="true" />
         <activity
-            android:name="com.udinus.bimaeducation.ChangePasswordActivity"
+            android:name=".ChangePasswordActivity"
             android:exported="true" />
         <activity
-            android:name="com.udinus.bimaeducation.SendcodeActivity"
+            android:name=".SendcodeActivity"
             android:exported="true" />
         <activity
-            android:name="com.udinus.bimaeducation.RegisterActivity"
+            android:name=".RegisterActivity"
             android:exported="true" />
         <activity
-            android:name="com.udinus.bimaeducation.ForgotPasswordActivity"
+            android:name=".ForgotPasswordActivity"
             android:exported="true" />
         <activity
-            android:name="com.udinus.bimaeducation.LoginActivity"
+            android:name=".LoginActivity"
             android:exported="true" />
         <activity
-            android:name="com.udinus.bimaeducation.MainActivity"
+            android:name=".iAbout"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

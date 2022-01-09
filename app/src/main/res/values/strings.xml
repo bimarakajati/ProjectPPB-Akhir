@@ -46,4 +46,5 @@
             \n\nPHP merupakan bahasa pemrograman server-side, maka script dari PHP nantinya akan diproses di server. Jenis server yang sering digunakan bersama dengan PHP antara lain Apache, Nginx, dan LiteSpeed.
         </item>
     </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>
