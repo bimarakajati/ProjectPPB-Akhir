@@ -49,8 +49,8 @@ public class MainMenuActivity extends AppCompatActivity {
     }
 
     public void about(View view) {
-//        Intent i = new Intent(MainMenuActivity.this, iAbout.class);
-//        startActivity(i);
-        Toast.makeText(MainMenuActivity.this, "Belom ada ganteng", Toast.LENGTH_LONG).show();
+        Intent i = new Intent(MainMenuActivity.this, iAbout.class);
+        startActivity(i);
+//        Toast.makeText(MainMenuActivity.this, "Belom ada ganteng", Toast.LENGTH_LONG).show();
     }
 }
