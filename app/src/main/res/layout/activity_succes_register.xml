@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_login"
-    tools:context=".SuccesRegister">
+    tools:context=".SuccessRegister">
 
     <ImageView
         android:id="@+id/logo"
@@ -21,11 +21,30 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SUKSES"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="Registrasi berhasil!\nSilahkan login"
+        android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="30sp"
-        android:textStyle="bold"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="260dp"
+        android:layout_height="56dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/londrinasolid_regular"
+        android:letterSpacing="0.10"
+        android:onClick="btn_login"
+        android:text="LOGIN"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 </androidx.constraintlayout.widget.ConstraintLayout>

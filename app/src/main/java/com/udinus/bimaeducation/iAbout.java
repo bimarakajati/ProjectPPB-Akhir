@@ -1,6 +1,7 @@
 package com.udinus.bimaeducation;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -15,9 +16,12 @@ public class iAbout extends AppCompatActivity {
         setContentView(R.layout.activity_about);
     }
 
+    public void github(View view){
+        startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://github.com/Rigel9802/ProjectPPB-Akhir")));
+    }
+
     public void lokasi(View view){
         Intent i = new Intent(this, MapsActivity.class);
         startActivity(i);
-//        Toast.makeText(this, "Masuk", Toast.LENGTH_SHORT).show();
     }
 }

@@ -1,5 +1,6 @@
 package com.udinus.bimaeducation;
 
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -44,5 +45,16 @@ public class RegisterActivity extends AppCompatActivity {
     public void btn_register(View view) {
         Intent intent = new Intent(RegisterActivity.this, RegisterHomeActivity.class);
         startActivity(intent);
+    }
+
+    @Override
+    public void onBackPressed() {
+        new AlertDialog.Builder(this)
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setTitle("Menutup aplikasi")
+                .setMessage("Apakah anda yakin ingin menutup aplikasi ini?")
+                .setPositiveButton("Ya", (dialog, which) -> finish())
+                .setNegativeButton("Tidak", null)
+                .show();
     }
 }
