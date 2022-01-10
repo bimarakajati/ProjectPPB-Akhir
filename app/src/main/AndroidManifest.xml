@@ -18,6 +18,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".PaymentSuccess"
+            android:exported="true" />
+        <activity
+            android:name=".ListStructActivity"
+            android:exported="true" />
+        <activity
             android:name=".SuccessPassword"
             android:exported="false" />
         <!--
