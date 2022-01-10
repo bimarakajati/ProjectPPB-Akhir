@@ -43,7 +43,7 @@
         android:background="@drawable/edit_text_bg"
         android:drawableStart="@drawable/ic_baseline_qr_code_24"
         android:drawablePadding="10dp"
-        android:inputType="textEmailAddress"
+        android:inputType="numberPassword"
         android:paddingStart="20dp"
         android:paddingTop="10dp"
         android:paddingEnd="20dp"

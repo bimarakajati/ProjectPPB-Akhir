@@ -41,7 +41,7 @@
         android:drawableStart="@drawable/ic_baseline_mail_24"
         android:drawablePadding="10dp"
         android:hint="Email"
-        android:inputType="textEmailSubject"
+        android:inputType="textEmailAddress"
         android:paddingStart="20dp"
         android:paddingTop="10dp"
         android:paddingEnd="20dp"

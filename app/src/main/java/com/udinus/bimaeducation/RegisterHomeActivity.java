@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Patterns;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -34,19 +35,28 @@ public class RegisterHomeActivity extends AppCompatActivity {
         // Validasi kosong
         if (TextUtils.isEmpty(editEmail.getText().toString().trim())) {
             Toast.makeText(view.getContext(), "Email harus diisi!", Toast.LENGTH_LONG).show();
+        } else if (!isValidEmail(editEmail.getText().toString().trim())) {
+            Toast.makeText(view.getContext(), "Email tidak valid!", Toast.LENGTH_LONG).show();
         } else if (TextUtils.isEmpty(editUsername.getText().toString().trim())) {
             Toast.makeText(view.getContext(), "Isi Username Baru Anda!", Toast.LENGTH_LONG).show();
         } else if (TextUtils.isEmpty(editTextPassword.getText().toString().trim())) {
             Toast.makeText(view.getContext(), "Isi Password Baru Anda!", Toast.LENGTH_LONG).show();
+        } else if (editTextPassword.getText().length() < 6) {
+            Toast.makeText(view.getContext(), "Password minimal 6!", Toast.LENGTH_LONG).show();
         } else if (TextUtils.isEmpty(editConfirmPassword.getText().toString().trim())) {
             Toast.makeText(view.getContext(), "Konfirmasi Password Baru Anda!", Toast.LENGTH_LONG).show();
         }
         // cek inputan new dan confirm
-        else if (editTextPassword.getText().toString().equals(editConfirmPassword.getText().toString())) {
-            Intent i = new Intent(RegisterHomeActivity.this, SuccesRegister.class);
-            startActivity(i);
-        } else if (editTextPassword.getText().toString().equalsIgnoreCase(editConfirmPassword.getText().toString())) {
+        else if (!editTextPassword.getText().toString().equals(editConfirmPassword.getText().toString())) {
             Toast.makeText(view.getContext(), "Password harus sama", Toast.LENGTH_LONG).show();
+        } else {
+            Intent i = new Intent(RegisterHomeActivity.this, SuccessRegister.class);
+            startActivity(i);
         }
+    }
+
+    // Email validation
+    public static boolean isValidEmail(CharSequence email) {
+        return (Patterns.EMAIL_ADDRESS.matcher(email).matches());
     }
 }

@@ -41,7 +41,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         LatLng bimaedu = new LatLng(-6.98267, 110.4069332);
         float zoomLevel = 17.0f;
-        googleMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
+        googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
         googleMap.addMarker(new MarkerOptions().position(bimaedu).title("BimaEdu Inc."));
         googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(bimaedu, zoomLevel));
     }
